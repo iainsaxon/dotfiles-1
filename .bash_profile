@@ -50,3 +50,5 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 export PATH="$(brew --prefix homebrew/php/php54)/bin:$PATH";
 export PATH="$(brew --prefix homebrew/php/php55)/bin:$PATH";
 export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH";
+
+source "$(brew --prefix grc)/etc/grc.bashrc" 2> /dev/null;

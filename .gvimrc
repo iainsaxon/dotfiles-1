@@ -1,6 +1,5 @@
-" Use the Solarized Dark theme
 set background=dark
-colorscheme solarized
+colorscheme Tomorrow-Night-Eighties
 " Use 14pt Monaco
 set guifont=Monaco:h14
 " Better line-height
