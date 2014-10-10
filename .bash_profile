@@ -46,3 +46,7 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+export PATH="$(brew --prefix homebrew/php/php54)/bin:$PATH";
+export PATH="$(brew --prefix homebrew/php/php55)/bin:$PATH";
+export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH";
