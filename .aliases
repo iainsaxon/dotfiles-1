@@ -144,4 +144,6 @@ alias reload="exec $SHELL -l"
 # Faster npm for Europeans
 command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu/"
 
-alias mongostart = "mongod --config /usr/local/etc/mongod.conf";
+alias mongostart="mongod --config /usr/local/etc/mongod.conf";
+
+alias adddockspacer="defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock;"
