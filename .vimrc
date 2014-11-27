@@ -5,7 +5,8 @@ colorscheme Tomorrow-Night-Eighties
 " Make Vim more useful
 set nocompatible
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
-set clipboard=unnamed
+" DISABLED SHARED CLIPBOARD
+" set clipboard=unnamed
 " Enhance command-line completion
 set wildmenu
 " Allow cursor keys in insert mode
